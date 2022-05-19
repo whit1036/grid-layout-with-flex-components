@@ -25,3 +25,26 @@ body {
   .icon {
     font-size: 4rem;
   }
+
+  .emojis {
+      display: grid;
+      grid-template-areas:
+      "smile beer"
+      "tears seed";
+  }
+
+  .emoji:nth-child(1) {
+      grid-area: smile;
+  }
+
+  .emoji:nth-child(2) {
+      grid-area: beer;
+  }
+
+  .emoji:nth-child(3) {
+      grid-area: tears;
+  }
+
+  .emoji:nth-child(4) {
+    grid-area: seed;
+}
