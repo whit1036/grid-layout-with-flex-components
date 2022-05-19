@@ -27,25 +27,25 @@ body {
   }
 
   .emojis {
-      display: grid;
-      grid-template-rows: 350px 350px;
-      grid-template-columns: 25% 25%;
-      grid-template-areas:
-      "smile beer"
-      "tears seed";
-      gap: 15px;
+    display: grid;
+    grid-template-rows: 350px 350px;
+    grid-template-columns: 25% 25%;
+    grid-template-areas:
+    "smile beer"
+    "tears seed";
+    gap: 15px;
   }
 
   .emoji:nth-child(1) {
-      grid-area: smile;
+    grid-area: smile;
   }
 
   .emoji:nth-child(2) {
-      grid-area: beer;
+    grid-area: beer;
   }
 
   .emoji:nth-child(3) {
-      grid-area: tears;
+    grid-area: tears;
   }
 
   .emoji:nth-child(4) {
