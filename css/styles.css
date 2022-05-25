@@ -33,7 +33,7 @@ body {
     font-size: 4rem;
   }
 
-/* my css code */
+/* grid properties */
   .emojis {
     display: grid;
     grid-template-rows: 350px 350px;
@@ -59,3 +59,15 @@ body {
   .emoji:nth-child(4) {
     grid-area: seed;
 }
+
+/* flex properties */
+
+/* referenced/learned from https://stackoverflow.com/questions/37449725/flex-order-property-not-working-as-expected */
+  .emoji {
+    display: flex;
+    flex-direction: column;
+  }
+
+  span {
+    order: -1;
+  }
