@@ -1,3 +1,10 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* readme.md base css code */
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #222;
@@ -26,6 +33,7 @@ body {
     font-size: 4rem;
   }
 
+/* my css code */
   .emojis {
     display: grid;
     grid-template-rows: 350px 350px;
