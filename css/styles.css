@@ -5,7 +5,7 @@
 }
 
 /* readme.md base css code */
-body {
+  body {
     font-family: Arial, Helvetica, sans-serif;
     color: #222;
   }
@@ -39,7 +39,7 @@ body {
     margin: 0 auto;
   }
 
-/* flex properties */
+  /* flex properties */
   .emojis {
     display: flex;
     justify-content: center;
@@ -63,7 +63,7 @@ body {
     margin-top: auto;
   }
 
-/* grid properties */
+  /* grid properties */
   .emojis {
     display: grid;
     grid-template-rows: 300px 350px;
