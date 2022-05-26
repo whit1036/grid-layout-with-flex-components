@@ -58,6 +58,11 @@ body {
     order: -1;
   }
 
+  /* referenced/learned from https://www.samanthaming.com/flexbox30/31-flexbox-with-auto-margins/ */
+  a {
+    margin-top: auto;
+  }
+
 /* grid properties */
   .emojis {
     display: grid;
