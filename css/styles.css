@@ -33,11 +33,36 @@ body {
     font-size: 4rem;
   }
 
+/* my css */
+  .siteheader {
+    width: 850px;
+    margin: 0 auto;
+  }
+
+/* flex properties */
+  .emojis {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* referenced/learned from https://stackoverflow.com/questions/37449725/flex-order-property-not-working-as-expected */
+  .emoji {
+    display: flex;
+    flex-direction: column;
+  }
+
+  span {
+    text-align: center;
+    order: -1;
+  }
+
 /* grid properties */
   .emojis {
     display: grid;
-    grid-template-rows: 350px 350px;
-    grid-template-columns: 25% 25%;
+    grid-template-rows: 300px 350px;
+    grid-template-columns: 35% 35%;
     grid-template-areas:
     "smile beer"
     "tears seed";
@@ -59,15 +84,3 @@ body {
   .emoji:nth-child(4) {
     grid-area: seed;
 }
-
-/* flex properties */
-
-/* referenced/learned from https://stackoverflow.com/questions/37449725/flex-order-property-not-working-as-expected */
-  .emoji {
-    display: flex;
-    flex-direction: column;
-  }
-
-  span {
-    order: -1;
-  }
